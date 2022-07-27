@@ -16,8 +16,6 @@ flutter:
         pluginClass: ConnectivityPlugin
       ios:
         pluginClass: ConnectivityPlusPlugin
-      linux:
-        default_package: connectivity_plus_linux
       macos:
         default_package: connectivity_plus_macos
       web:
@@ -29,7 +27,6 @@ dependencies:
   flutter:
     sdk: flutter
   connectivity_plus_platform_interface: ^1.2.0
-  connectivity_plus_linux: ^1.3.0
   connectivity_plus_macos: ^1.2.4
   connectivity_plus_web: ^1.2.3
   connectivity_plus_windows: ^1.2.2
